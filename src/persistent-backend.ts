@@ -59,6 +59,32 @@ export interface PersistentBackendOptions {
   attachClient?: (config: BrowserUseConfig) => AttachedClient
 }
 
+
+/**
+ * Snapshot `pid command-line` pairs for every running process.
+ * `ps` is unavailable on Windows, so use CIM there (wmic is gone from
+ * Windows 11 24H2+); both formats are accepted by findManagedChromePids.
+ */
+function readProcessTable(): string {
+  try {
+    if (process.platform === 'win32') {
+      return execFileSync(
+        'powershell.exe',
+        [
+          '-NoProfile',
+          '-NonInteractive',
+          '-Command',
+          'Get-CimInstance Win32_Process | ForEach-Object { "{0} {1}" -f $_.ProcessId, $_.CommandLine }',
+        ],
+        { encoding: 'utf8', windowsHide: true, timeout: 15_000 }
+      )
+    }
+    return execFileSync('ps', ['-eo', 'pid,command'], { encoding: 'utf8' })
+  } catch {
+    return ''
+  }
+}
+
 export class PersistentBackend {
   private chrome: ChromeProcess | undefined
   private lock: ProfileLockHandle | undefined
@@ -144,13 +170,7 @@ export class PersistentBackend {
     runner?: { ps(): string; kill(pid: number): void }
   ): number[] {
     const run = runner ?? {
-      ps: () => {
-        try {
-          return execFileSync('ps', ['-eo', 'pid,command'], { encoding: 'utf8' })
-        } catch {
-          return ''
-        }
-      },
+      ps: readProcessTable,
       kill: (pid: number) => {
         try {
           process.kill(pid, 'SIGTERM')

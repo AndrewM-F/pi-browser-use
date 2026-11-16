@@ -104,6 +104,18 @@ export function findChromeExecutable(executablePath?: string): string {
   )
 }
 
+
+/**
+ * Chrome is spawned by Pi without quoting, but Windows shells and manual
+ * launches report `--user-data-dir="C:\\path"`. Normalise so orphan
+ * detection matches either form.
+ */
+export function stripUserDataDirQuotes(command: string): string {
+  return command.replace(/--user-data-dir=(?:"([^"]*)"|'([^']*)')/g, (_match, dq, sq) => {
+    return `--user-data-dir=${dq ?? sq ?? ''}`
+  })
+}
+
 /**
  * Parse `ps -eo pid,command` output for Pi-managed Chromes on a profile
  * root: processes carrying our user-data-dir AND the named-profile marker.
@@ -119,10 +131,15 @@ export function findManagedChromePids(
     const match = line.match(/^\s*(\d+)\s+(.*)$/)
     if (!match) continue
     const pid = Number(match[1])
-    const command = match[2] ?? ''
+    const command = stripUserDataDirQuotes(match[2] ?? '')
     if (pid === keepPid) continue
     if (!command.includes('Google Chrome') && !command.includes('chrome')) continue
-    if (!command.includes(`--user-data-dir=${userDataDir}`)) continue
+    const wanted = `--user-data-dir=${userDataDir}`
+    const hasDir =
+      process.platform === 'win32'
+        ? command.toLowerCase().includes(wanted.toLowerCase())
+        : command.includes(wanted)
+    if (!hasDir) continue
     if (!command.includes('--remote-debugging-port=')) continue
     pids.push(pid)
   }
