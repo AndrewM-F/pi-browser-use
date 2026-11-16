@@ -101,7 +101,7 @@ Writes a screenshot or the rendered HTML to disk (default `~/.pi/browser-artifac
 
 With `annotate: true`, screenshots get numbered badges over interactive elements plus a coordinate map for coordinate click tools — badges are removed after capture:
 
-![Annotated screenshot demo](https://raw.githubusercontent.com/0xPlayerOne/pi-browser-use/main/docs/assets/annotate-demo.gif)
+![Annotated screenshot demo](https://raw.githubusercontent.com/AndrewM-F/pi-browser-use/main/docs/assets/annotate-demo.gif)
 
 ```text
 browser_save_artifact({ "pageId": 1, "kind": "screenshot", "annotate": true })

@@ -4,9 +4,9 @@
   "version": "0.12.15",
   "description": "Managed persistent, fresh, and existing Chrome sessions with focus-safe browser tools and CLI-first skills.",
   "author": {
-    "name": "0xPlayerOne"
+    "name": "AndrewM-F"
   },
-  "repository": "https://github.com/0xPlayerOne/pi-browser-use",
+  "repository": "https://github.com/AndrewM-F/pi-browser-use",
   "license": "MIT",
   "keywords": [
     "browser",

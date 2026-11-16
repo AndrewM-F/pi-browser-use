@@ -11,15 +11,15 @@
     "pi",
     "pi-package"
   ],
-  "homepage": "https://github.com/0xPlayerOne/pi-browser-use#readme",
+  "homepage": "https://github.com/AndrewM-F/pi-browser-use#readme",
   "bugs": {
-    "url": "https://github.com/0xPlayerOne/pi-browser-use/issues"
+    "url": "https://github.com/AndrewM-F/pi-browser-use/issues"
   },
   "license": "MIT",
-  "author": "0xPlayerOne",
+  "author": "AndrewM-F",
   "repository": {
     "type": "git",
-    "url": "https://github.com/0xPlayerOne/pi-browser-use.git"
+    "url": "https://github.com/AndrewM-F/pi-browser-use.git"
   },
   "files": [
     "dist/**/*.js",

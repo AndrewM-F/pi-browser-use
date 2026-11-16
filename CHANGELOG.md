@@ -1,409 +1,409 @@
 # Changelog
 
-## [0.12.15](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.12.14...pi-browser-use-v0.12.15) (2026-10-24)
+## [0.12.15](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.14...pi-browser-use-v0.12.15) (2026-10-24)
 
 
 ### Maintenance
 
-* Code Foundry v1.48.8 + Pi 1.4.0 ([#114](https://github.com/0xPlayerOne/pi-browser-use/issues/114)) ([7de94dc](https://github.com/0xPlayerOne/pi-browser-use/commit/7de94dce2628c9aece743864d054adc3df6a5e05))
+* Code Foundry v1.48.8 + Pi 1.4.0 ([#114](https://github.com/AndrewM-F/pi-browser-use/issues/114)) ([7de94dc](https://github.com/AndrewM-F/pi-browser-use/commit/7de94dce2628c9aece743864d054adc3df6a5e05))
 
-## [0.12.14](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.12.13...pi-browser-use-v0.12.14) (2026-10-22)
-
-
-### Maintenance
-
-* bun-1.4.4-cloud ([#110](https://github.com/0xPlayerOne/pi-browser-use/issues/110)) ([2d3f0ba](https://github.com/0xPlayerOne/pi-browser-use/commit/2d3f0bae3f1a9ff90931dc6e5ab6664c5d5f0292))
-
-## [0.12.13](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.12.12...pi-browser-use-v0.12.13) (2026-10-08)
+## [0.12.14](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.13...pi-browser-use-v0.12.14) (2026-10-22)
 
 
 ### Maintenance
 
-* **code-foundry:** upgrade runtime to v1.47.1 ([#103](https://github.com/0xPlayerOne/pi-browser-use/issues/103)) ([7ff00e0](https://github.com/0xPlayerOne/pi-browser-use/commit/7ff00e002320bd31f099ac2e9115b110893f9c89))
+* bun-1.4.4-cloud ([#110](https://github.com/AndrewM-F/pi-browser-use/issues/110)) ([2d3f0ba](https://github.com/AndrewM-F/pi-browser-use/commit/2d3f0bae3f1a9ff90931dc6e5ab6664c5d5f0292))
 
-## [0.12.12](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.12.11...pi-browser-use-v0.12.12) (2026-10-08)
-
-
-### Maintenance
-
-* **deps:** build against pi 1.1.0 ([#104](https://github.com/0xPlayerOne/pi-browser-use/issues/104)) ([f9894ed](https://github.com/0xPlayerOne/pi-browser-use/commit/f9894eddae5b2f3484f50d64162417e00bba9f02))
-
-## [0.12.11](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.12.10...pi-browser-use-v0.12.11) (2026-10-03)
+## [0.12.13](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.12...pi-browser-use-v0.12.13) (2026-10-08)
 
 
 ### Maintenance
 
-* **code-foundry:** upgrade runtime to v1.44.3 ([#101](https://github.com/0xPlayerOne/pi-browser-use/issues/101)) ([9d4d295](https://github.com/0xPlayerOne/pi-browser-use/commit/9d4d29520a0282b1ed672159bc742294fa1d9d81))
+* **code-foundry:** upgrade runtime to v1.47.1 ([#103](https://github.com/AndrewM-F/pi-browser-use/issues/103)) ([7ff00e0](https://github.com/AndrewM-F/pi-browser-use/commit/7ff00e002320bd31f099ac2e9115b110893f9c89))
 
-## [0.12.10](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.12.9...pi-browser-use-v0.12.10) (2026-10-02)
-
-
-### Maintenance
-
-* **code-foundry:** upgrade runtime to v1.41.0 ([#99](https://github.com/0xPlayerOne/pi-browser-use/issues/99)) ([adc6799](https://github.com/0xPlayerOne/pi-browser-use/commit/adc6799271d97b6fae78f1f349f62f541e425016))
-
-## [0.12.9](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.12.8...pi-browser-use-v0.12.9) (2026-10-02)
+## [0.12.12](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.11...pi-browser-use-v0.12.12) (2026-10-08)
 
 
 ### Maintenance
 
-* **code-foundry:** upgrade runtime to v1.40.0 ([#97](https://github.com/0xPlayerOne/pi-browser-use/issues/97)) ([1abea17](https://github.com/0xPlayerOne/pi-browser-use/commit/1abea17569fa11830c93855419fd7026be124b74))
+* **deps:** build against pi 1.1.0 ([#104](https://github.com/AndrewM-F/pi-browser-use/issues/104)) ([f9894ed](https://github.com/AndrewM-F/pi-browser-use/commit/f9894eddae5b2f3484f50d64162417e00bba9f02))
 
-## [0.12.8](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.12.7...pi-browser-use-v0.12.8) (2026-09-30)
+## [0.12.11](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.10...pi-browser-use-v0.12.11) (2026-10-03)
+
+
+### Maintenance
+
+* **code-foundry:** upgrade runtime to v1.44.3 ([#101](https://github.com/AndrewM-F/pi-browser-use/issues/101)) ([9d4d295](https://github.com/AndrewM-F/pi-browser-use/commit/9d4d29520a0282b1ed672159bc742294fa1d9d81))
+
+## [0.12.10](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.9...pi-browser-use-v0.12.10) (2026-10-02)
+
+
+### Maintenance
+
+* **code-foundry:** upgrade runtime to v1.41.0 ([#99](https://github.com/AndrewM-F/pi-browser-use/issues/99)) ([adc6799](https://github.com/AndrewM-F/pi-browser-use/commit/adc6799271d97b6fae78f1f349f62f541e425016))
+
+## [0.12.9](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.8...pi-browser-use-v0.12.9) (2026-10-02)
+
+
+### Maintenance
+
+* **code-foundry:** upgrade runtime to v1.40.0 ([#97](https://github.com/AndrewM-F/pi-browser-use/issues/97)) ([1abea17](https://github.com/AndrewM-F/pi-browser-use/commit/1abea17569fa11830c93855419fd7026be124b74))
+
+## [0.12.8](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.7...pi-browser-use-v0.12.8) (2026-09-30)
 
 
 ### Tests
 
-* remove wall-clock races from the Chrome readiness tests ([#93](https://github.com/0xPlayerOne/pi-browser-use/issues/93)) ([2d719af](https://github.com/0xPlayerOne/pi-browser-use/commit/2d719afe94f615fb518452fc0c37f9f36f419ea7))
+* remove wall-clock races from the Chrome readiness tests ([#93](https://github.com/AndrewM-F/pi-browser-use/issues/93)) ([2d719af](https://github.com/AndrewM-F/pi-browser-use/commit/2d719afe94f615fb518452fc0c37f9f36f419ea7))
 
-## [0.12.7](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.12.6...pi-browser-use-v0.12.7) (2026-09-30)
+## [0.12.7](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.6...pi-browser-use-v0.12.7) (2026-09-30)
 
 
 ### Maintenance
 
-* **code-foundry:** upgrade runtime to v1.38.1 ([#91](https://github.com/0xPlayerOne/pi-browser-use/issues/91)) ([17dc3de](https://github.com/0xPlayerOne/pi-browser-use/commit/17dc3de769d2e74b66d56c53291f7c96276246e6))
+* **code-foundry:** upgrade runtime to v1.38.1 ([#91](https://github.com/AndrewM-F/pi-browser-use/issues/91)) ([17dc3de](https://github.com/AndrewM-F/pi-browser-use/commit/17dc3de769d2e74b66d56c53291f7c96276246e6))
 
-## [0.12.6](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.12.5...pi-browser-use-v0.12.6) (2026-09-30)
+## [0.12.6](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.5...pi-browser-use-v0.12.6) (2026-09-30)
 
 
 ### Bug Fixes
 
-* declare typebox as a peer dependency ([#92](https://github.com/0xPlayerOne/pi-browser-use/issues/92)) ([7e7bb81](https://github.com/0xPlayerOne/pi-browser-use/commit/7e7bb81b717173112c8e96e51086a925568c0a86)), closes [#83](https://github.com/0xPlayerOne/pi-browser-use/issues/83)
+* declare typebox as a peer dependency ([#92](https://github.com/AndrewM-F/pi-browser-use/issues/92)) ([7e7bb81](https://github.com/AndrewM-F/pi-browser-use/commit/7e7bb81b717173112c8e96e51086a925568c0a86)), closes [#83](https://github.com/AndrewM-F/pi-browser-use/issues/83)
 
-## [0.12.5](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.12.4...pi-browser-use-v0.12.5) (2026-09-30)
+## [0.12.5](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.4...pi-browser-use-v0.12.5) (2026-09-30)
 
 
 ### Maintenance
 
-* **code-foundry:** upgrade to v1.38.0 ([#89](https://github.com/0xPlayerOne/pi-browser-use/issues/89)) ([6e27e6a](https://github.com/0xPlayerOne/pi-browser-use/commit/6e27e6ab2bae97e017473cd7e55ff953d61007a4))
+* **code-foundry:** upgrade to v1.38.0 ([#89](https://github.com/AndrewM-F/pi-browser-use/issues/89)) ([6e27e6a](https://github.com/AndrewM-F/pi-browser-use/commit/6e27e6ab2bae97e017473cd7e55ff953d61007a4))
 
-## [0.12.4](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.12.3...pi-browser-use-v0.12.4) (2026-09-30)
+## [0.12.4](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.3...pi-browser-use-v0.12.4) (2026-09-30)
 
 
 ### CI
 
-* also run the browser smoke when a pull request opens ready ([#86](https://github.com/0xPlayerOne/pi-browser-use/issues/86)) ([1a6e916](https://github.com/0xPlayerOne/pi-browser-use/commit/1a6e9168a90ada97c1dba7e29997ff774fb53f11))
+* also run the browser smoke when a pull request opens ready ([#86](https://github.com/AndrewM-F/pi-browser-use/issues/86)) ([1a6e916](https://github.com/AndrewM-F/pi-browser-use/commit/1a6e9168a90ada97c1dba7e29997ff774fb53f11))
 
-## [0.12.3](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.12.2...pi-browser-use-v0.12.3) (2026-09-30)
+## [0.12.3](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.2...pi-browser-use-v0.12.3) (2026-09-30)
 
 
 ### CI
 
-* re-run the browser smoke on every push to a ready pull request ([#84](https://github.com/0xPlayerOne/pi-browser-use/issues/84)) ([7388391](https://github.com/0xPlayerOne/pi-browser-use/commit/73883912677a5f6448556f92579763b8b1fb9e1a))
+* re-run the browser smoke on every push to a ready pull request ([#84](https://github.com/AndrewM-F/pi-browser-use/issues/84)) ([7388391](https://github.com/AndrewM-F/pi-browser-use/commit/73883912677a5f6448556f92579763b8b1fb9e1a))
 
-## [0.12.2](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.12.1...pi-browser-use-v0.12.2) (2026-09-30)
-
-
-### Bug Fixes
-
-* **ci:** install with bun; make Chrome shutdown preserve profile state ([#79](https://github.com/0xPlayerOne/pi-browser-use/issues/79)) ([784d81d](https://github.com/0xPlayerOne/pi-browser-use/commit/784d81d4c9c1c29d0dd850b6a5cb375fb5bcac2f))
-
-## [0.12.1](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.12.0...pi-browser-use-v0.12.1) (2026-09-30)
+## [0.12.2](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.1...pi-browser-use-v0.12.2) (2026-09-30)
 
 
 ### Bug Fixes
 
-* **pkg:** declare a Node engine range instead of an exact pin ([#80](https://github.com/0xPlayerOne/pi-browser-use/issues/80)) ([c025ec4](https://github.com/0xPlayerOne/pi-browser-use/commit/c025ec4f99bef8fb4b53f411526caf6d0d2ddd50))
+* **ci:** install with bun; make Chrome shutdown preserve profile state ([#79](https://github.com/AndrewM-F/pi-browser-use/issues/79)) ([784d81d](https://github.com/AndrewM-F/pi-browser-use/commit/784d81d4c9c1c29d0dd850b6a5cb375fb5bcac2f))
 
-## [0.12.0](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.11.12...pi-browser-use-v0.12.0) (2026-09-30)
+## [0.12.1](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.0...pi-browser-use-v0.12.1) (2026-09-30)
+
+
+### Bug Fixes
+
+* **pkg:** declare a Node engine range instead of an exact pin ([#80](https://github.com/AndrewM-F/pi-browser-use/issues/80)) ([c025ec4](https://github.com/AndrewM-F/pi-browser-use/commit/c025ec4f99bef8fb4b53f411526caf6d0d2ddd50))
+
+## [0.12.0](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.11.12...pi-browser-use-v0.12.0) (2026-09-30)
 
 
 ### Features
 
-* align to Pi 0.99 and propagate MCP tool annotations ([#77](https://github.com/0xPlayerOne/pi-browser-use/issues/77)) ([93b3443](https://github.com/0xPlayerOne/pi-browser-use/commit/93b34430efae8bd1c29ac2623d3f2d75d323f06a))
+* align to Pi 0.99 and propagate MCP tool annotations ([#77](https://github.com/AndrewM-F/pi-browser-use/issues/77)) ([93b3443](https://github.com/AndrewM-F/pi-browser-use/commit/93b34430efae8bd1c29ac2623d3f2d75d323f06a))
 
-## [0.11.12](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.11.11...pi-browser-use-v0.11.12) (2026-09-30)
-
-
-### Maintenance
-
-* **deps:** bump actions/setup-node ([#61](https://github.com/0xPlayerOne/pi-browser-use/issues/61)) ([879bbe7](https://github.com/0xPlayerOne/pi-browser-use/commit/879bbe73551fda9c0f02e2b5f903a033d2869169))
-
-## [0.11.11](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.11.10...pi-browser-use-v0.11.11) (2026-09-30)
+## [0.11.12](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.11.11...pi-browser-use-v0.11.12) (2026-09-30)
 
 
 ### Maintenance
 
-* **ci:** switch Dependabot to bun ecosystem for bun.lock repo ([#71](https://github.com/0xPlayerOne/pi-browser-use/issues/71)) ([d814e2b](https://github.com/0xPlayerOne/pi-browser-use/commit/d814e2b9581e0b5feb68708401a5c112992dcfd5))
+* **deps:** bump actions/setup-node ([#61](https://github.com/AndrewM-F/pi-browser-use/issues/61)) ([879bbe7](https://github.com/AndrewM-F/pi-browser-use/commit/879bbe73551fda9c0f02e2b5f903a033d2869169))
 
-## [0.11.10](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.11.9...pi-browser-use-v0.11.10) (2026-09-29)
-
-
-### Maintenance
-
-* **code-foundry:** upgrade runtime to v1.36.4 ([#73](https://github.com/0xPlayerOne/pi-browser-use/issues/73)) ([5ce7034](https://github.com/0xPlayerOne/pi-browser-use/commit/5ce7034d5bc32dc26022244844d3e3776770f108))
-
-## [0.11.9](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.11.8...pi-browser-use-v0.11.9) (2026-09-29)
+## [0.11.11](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.11.10...pi-browser-use-v0.11.11) (2026-09-30)
 
 
 ### Maintenance
 
-* align toolchain with fleet standard and adopt runtime v1.30.0 ([#68](https://github.com/0xPlayerOne/pi-browser-use/issues/68)) ([34bb1af](https://github.com/0xPlayerOne/pi-browser-use/commit/34bb1afd2b74b1c4188943c3bcc71d0a71bba40f))
-* **code-foundry:** upgrade runtime to v1.35.0 ([#72](https://github.com/0xPlayerOne/pi-browser-use/issues/72)) ([032b360](https://github.com/0xPlayerOne/pi-browser-use/commit/032b360fcf018bded2f7ab084618a2655eaa5dd7))
+* **ci:** switch Dependabot to bun ecosystem for bun.lock repo ([#71](https://github.com/AndrewM-F/pi-browser-use/issues/71)) ([d814e2b](https://github.com/AndrewM-F/pi-browser-use/commit/d814e2b9581e0b5feb68708401a5c112992dcfd5))
 
-## [0.11.8](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.11.7...pi-browser-use-v0.11.8) (2026-09-17)
+## [0.11.10](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.11.9...pi-browser-use-v0.11.10) (2026-09-29)
 
 
 ### Maintenance
 
-* standardize lint and format toolchain ([#63](https://github.com/0xPlayerOne/pi-browser-use/issues/63)) ([560477e](https://github.com/0xPlayerOne/pi-browser-use/commit/560477e9526422b987e93c3d8add2cc2ba95d243))
+* **code-foundry:** upgrade runtime to v1.36.4 ([#73](https://github.com/AndrewM-F/pi-browser-use/issues/73)) ([5ce7034](https://github.com/AndrewM-F/pi-browser-use/commit/5ce7034d5bc32dc26022244844d3e3776770f108))
 
-## [0.11.7](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.11.6...pi-browser-use-v0.11.7) (2026-09-12)
+## [0.11.9](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.11.8...pi-browser-use-v0.11.9) (2026-09-29)
+
+
+### Maintenance
+
+* align toolchain with fleet standard and adopt runtime v1.30.0 ([#68](https://github.com/AndrewM-F/pi-browser-use/issues/68)) ([34bb1af](https://github.com/AndrewM-F/pi-browser-use/commit/34bb1afd2b74b1c4188943c3bcc71d0a71bba40f))
+* **code-foundry:** upgrade runtime to v1.35.0 ([#72](https://github.com/AndrewM-F/pi-browser-use/issues/72)) ([032b360](https://github.com/AndrewM-F/pi-browser-use/commit/032b360fcf018bded2f7ab084618a2655eaa5dd7))
+
+## [0.11.8](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.11.7...pi-browser-use-v0.11.8) (2026-09-17)
+
+
+### Maintenance
+
+* standardize lint and format toolchain ([#63](https://github.com/AndrewM-F/pi-browser-use/issues/63)) ([560477e](https://github.com/AndrewM-F/pi-browser-use/commit/560477e9526422b987e93c3d8add2cc2ba95d243))
+
+## [0.11.7](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.11.6...pi-browser-use-v0.11.7) (2026-09-12)
 
 
 ### Bug Fixes
 
-* **browser:** harden Chrome DevTools readiness against slow starts ([#59](https://github.com/0xPlayerOne/pi-browser-use/issues/59)) ([dd8bd6d](https://github.com/0xPlayerOne/pi-browser-use/commit/dd8bd6dd71f215c750a6dc19e28a5e4ad152c47e)), closes [#51](https://github.com/0xPlayerOne/pi-browser-use/issues/51)
+* **browser:** harden Chrome DevTools readiness against slow starts ([#59](https://github.com/AndrewM-F/pi-browser-use/issues/59)) ([dd8bd6d](https://github.com/AndrewM-F/pi-browser-use/commit/dd8bd6dd71f215c750a6dc19e28a5e4ad152c47e)), closes [#51](https://github.com/AndrewM-F/pi-browser-use/issues/51)
 
-## [0.11.6](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.11.5...pi-browser-use-v0.11.6) (2026-09-11)
-
-
-### Maintenance
-
-* **code-foundry:** upgrade runtime to v1.28.14 ([#57](https://github.com/0xPlayerOne/pi-browser-use/issues/57)) ([eea45c3](https://github.com/0xPlayerOne/pi-browser-use/commit/eea45c367e2e78af24b857184630b109405e8429))
-
-## [0.11.5](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.11.4...pi-browser-use-v0.11.5) (2026-09-11)
+## [0.11.6](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.11.5...pi-browser-use-v0.11.6) (2026-09-11)
 
 
 ### Maintenance
 
-* **code-foundry:** upgrade runtime to v1.28.11 ([#55](https://github.com/0xPlayerOne/pi-browser-use/issues/55)) ([bb33ad2](https://github.com/0xPlayerOne/pi-browser-use/commit/bb33ad299ac41d3f8fe4b743e0dc4bf1529184fc))
+* **code-foundry:** upgrade runtime to v1.28.14 ([#57](https://github.com/AndrewM-F/pi-browser-use/issues/57)) ([eea45c3](https://github.com/AndrewM-F/pi-browser-use/commit/eea45c367e2e78af24b857184630b109405e8429))
 
-## [0.11.4](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.11.3...pi-browser-use-v0.11.4) (2026-09-11)
+## [0.11.5](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.11.4...pi-browser-use-v0.11.5) (2026-09-11)
 
 
 ### Maintenance
 
-* **config:** right-size runner lanes and drop default shard overrides ([#53](https://github.com/0xPlayerOne/pi-browser-use/issues/53)) ([ad5b3ca](https://github.com/0xPlayerOne/pi-browser-use/commit/ad5b3caca26cbb29c4ca44d5a89eb3039a14753e))
+* **code-foundry:** upgrade runtime to v1.28.11 ([#55](https://github.com/AndrewM-F/pi-browser-use/issues/55)) ([bb33ad2](https://github.com/AndrewM-F/pi-browser-use/commit/bb33ad299ac41d3f8fe4b743e0dc4bf1529184fc))
 
-## [0.11.3](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.11.2...pi-browser-use-v0.11.3) (2026-09-10)
+## [0.11.4](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.11.3...pi-browser-use-v0.11.4) (2026-09-11)
+
+
+### Maintenance
+
+* **config:** right-size runner lanes and drop default shard overrides ([#53](https://github.com/AndrewM-F/pi-browser-use/issues/53)) ([ad5b3ca](https://github.com/AndrewM-F/pi-browser-use/commit/ad5b3caca26cbb29c4ca44d5a89eb3039a14753e))
+
+## [0.11.3](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.11.2...pi-browser-use-v0.11.3) (2026-09-10)
 
 
 ### Bug Fixes
 
-* **eval:** avoid interpolating fixture HTML into code ([#50](https://github.com/0xPlayerOne/pi-browser-use/issues/50)) ([b2da963](https://github.com/0xPlayerOne/pi-browser-use/commit/b2da96307c2008b7be7e454935594b37fd99c670))
+* **eval:** avoid interpolating fixture HTML into code ([#50](https://github.com/AndrewM-F/pi-browser-use/issues/50)) ([b2da963](https://github.com/AndrewM-F/pi-browser-use/commit/b2da96307c2008b7be7e454935594b37fd99c670))
 
-## [0.11.2](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.11.1...pi-browser-use-v0.11.2) (2026-09-10)
+## [0.11.2](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.11.1...pi-browser-use-v0.11.2) (2026-09-10)
 
 
 ### Maintenance
 
-* **code-foundry:** upgrade runtime to v1.28.4 ([3a34ba7](https://github.com/0xPlayerOne/pi-browser-use/commit/3a34ba7f1841004b5ebc660b165237f4ec32cf74))
+* **code-foundry:** upgrade runtime to v1.28.4 ([3a34ba7](https://github.com/AndrewM-F/pi-browser-use/commit/3a34ba7f1841004b5ebc660b165237f4ec32cf74))
 
-## [0.11.1](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.11.0...pi-browser-use-v0.11.1) (2026-09-10)
+## [0.11.1](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.11.0...pi-browser-use-v0.11.1) (2026-09-10)
 
 
 ### Bug Fixes
 
-* **browser:** release Chrome ownership after exit ([#47](https://github.com/0xPlayerOne/pi-browser-use/issues/47)) ([fdc7f39](https://github.com/0xPlayerOne/pi-browser-use/commit/fdc7f39dbd14f3da9b6b8c3716e26fba6df4c0ac))
+* **browser:** release Chrome ownership after exit ([#47](https://github.com/AndrewM-F/pi-browser-use/issues/47)) ([fdc7f39](https://github.com/AndrewM-F/pi-browser-use/commit/fdc7f39dbd14f3da9b6b8c3716e26fba6df4c0ac))
 
-## [0.11.0](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.10.1...pi-browser-use-v0.11.0) (2026-09-10)
+## [0.11.0](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.10.1...pi-browser-use-v0.11.0) (2026-09-10)
 
 
 ### Features
 
-* **eval:** deterministic browser evaluator on Code Foundry v1.25.3 ([#44](https://github.com/0xPlayerOne/pi-browser-use/issues/44)) ([8ee4a9c](https://github.com/0xPlayerOne/pi-browser-use/commit/8ee4a9c363b94bdc7d1549742b2ac9ef13095abe))
+* **eval:** deterministic browser evaluator on Code Foundry v1.25.3 ([#44](https://github.com/AndrewM-F/pi-browser-use/issues/44)) ([8ee4a9c](https://github.com/AndrewM-F/pi-browser-use/commit/8ee4a9c363b94bdc7d1549742b2ac9ef13095abe))
 
-## [0.10.1](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.10.0...pi-browser-use-v0.10.1) (2026-09-08)
+## [0.10.1](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.10.0...pi-browser-use-v0.10.1) (2026-09-08)
 
 
 ### Maintenance
 
-* **ci:** upgrade Code Foundry workflows to v1.9.12 ([#42](https://github.com/0xPlayerOne/pi-browser-use/issues/42)) ([531f291](https://github.com/0xPlayerOne/pi-browser-use/commit/531f2910909133cea2b365c80305447247b1ac63))
+* **ci:** upgrade Code Foundry workflows to v1.9.12 ([#42](https://github.com/AndrewM-F/pi-browser-use/issues/42)) ([531f291](https://github.com/AndrewM-F/pi-browser-use/commit/531f2910909133cea2b365c80305447247b1ac63))
 
-## [0.10.0](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.9.6...pi-browser-use-v0.10.0) (2026-09-08)
+## [0.10.0](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.9.6...pi-browser-use-v0.10.0) (2026-09-08)
 
 
 ### Features
 
-* add Agent Plugins 1.0 dual distribution and shared browser runtime ([#40](https://github.com/0xPlayerOne/pi-browser-use/issues/40)) ([86bc67d](https://github.com/0xPlayerOne/pi-browser-use/commit/86bc67d9d68e661dc94e7f47b1a195cc67a9c2f7))
+* add Agent Plugins 1.0 dual distribution and shared browser runtime ([#40](https://github.com/AndrewM-F/pi-browser-use/issues/40)) ([86bc67d](https://github.com/AndrewM-F/pi-browser-use/commit/86bc67d9d68e661dc94e7f47b1a195cc67a9c2f7))
 
-## [0.9.6](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.9.5...pi-browser-use-v0.9.6) (2026-09-08)
+## [0.9.6](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.9.5...pi-browser-use-v0.9.6) (2026-09-08)
 
 
 ### Maintenance
 
-* **ci:** upgrade Code Foundry to v1.9.11 ([#37](https://github.com/0xPlayerOne/pi-browser-use/issues/37)) ([a22ad2a](https://github.com/0xPlayerOne/pi-browser-use/commit/a22ad2ad43edcea2c9393bb1bcf110f3e768d9eb))
+* **ci:** upgrade Code Foundry to v1.9.11 ([#37](https://github.com/AndrewM-F/pi-browser-use/issues/37)) ([a22ad2a](https://github.com/AndrewM-F/pi-browser-use/commit/a22ad2ad43edcea2c9393bb1bcf110f3e768d9eb))
 
-## [0.9.5](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.9.4...pi-browser-use-v0.9.5) (2026-09-08)
+## [0.9.5](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.9.4...pi-browser-use-v0.9.5) (2026-09-08)
 
 
 ### Performance
 
-* complete M0 runtime and build audit ([#35](https://github.com/0xPlayerOne/pi-browser-use/issues/35)) ([55767ab](https://github.com/0xPlayerOne/pi-browser-use/commit/55767ab52a9e6502e3730c721fa23dd7e66f8d80))
+* complete M0 runtime and build audit ([#35](https://github.com/AndrewM-F/pi-browser-use/issues/35)) ([55767ab](https://github.com/AndrewM-F/pi-browser-use/commit/55767ab52a9e6502e3730c721fa23dd7e66f8d80))
 
-## [0.9.4](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.9.3...pi-browser-use-v0.9.4) (2026-09-08)
+## [0.9.4](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.9.3...pi-browser-use-v0.9.4) (2026-09-08)
 
 
 ### Maintenance
 
-* **code-foundry:** upgrade to v1.5.0 ([#33](https://github.com/0xPlayerOne/pi-browser-use/issues/33)) ([22ea429](https://github.com/0xPlayerOne/pi-browser-use/commit/22ea4291d59a5764e7de5c91a0070a01558b020d))
+* **code-foundry:** upgrade to v1.5.0 ([#33](https://github.com/AndrewM-F/pi-browser-use/issues/33)) ([22ea429](https://github.com/AndrewM-F/pi-browser-use/commit/22ea4291d59a5764e7de5c91a0070a01558b020d))
 
-## [0.9.3](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.9.2...pi-browser-use-v0.9.3) (2026-09-07)
+## [0.9.3](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.9.2...pi-browser-use-v0.9.3) (2026-09-07)
 
 
 ### Bug Fixes
 
-* **ci:** pin generated callers to the adopted v1.4.1 runtime ([#31](https://github.com/0xPlayerOne/pi-browser-use/issues/31)) ([f7a9f06](https://github.com/0xPlayerOne/pi-browser-use/commit/f7a9f063622d5a0bebfcd333f88ae97a9f98b74c))
+* **ci:** pin generated callers to the adopted v1.4.1 runtime ([#31](https://github.com/AndrewM-F/pi-browser-use/issues/31)) ([f7a9f06](https://github.com/AndrewM-F/pi-browser-use/commit/f7a9f063622d5a0bebfcd333f88ae97a9f98b74c))
 
 
 ### Maintenance
 
-* **code-foundry:** upgrade to v1.4.1 ([#28](https://github.com/0xPlayerOne/pi-browser-use/issues/28)) ([73f7ee5](https://github.com/0xPlayerOne/pi-browser-use/commit/73f7ee5786d35bd8bc3f4e7b4b404b45828d6a83))
+* **code-foundry:** upgrade to v1.4.1 ([#28](https://github.com/AndrewM-F/pi-browser-use/issues/28)) ([73f7ee5](https://github.com/AndrewM-F/pi-browser-use/commit/73f7ee5786d35bd8bc3f4e7b4b404b45828d6a83))
 
-## [0.9.2](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.9.1...pi-browser-use-v0.9.2) (2026-09-07)
+## [0.9.2](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.9.1...pi-browser-use-v0.9.2) (2026-09-07)
 
 
 ### Maintenance
 
-* adopt code-foundry v1.3.1 baseline and migrate to oxlint/oxfmt ([#26](https://github.com/0xPlayerOne/pi-browser-use/issues/26)) ([8eadf87](https://github.com/0xPlayerOne/pi-browser-use/commit/8eadf878a4622df1398c84e48f18603aa5ebd173))
+* adopt code-foundry v1.3.1 baseline and migrate to oxlint/oxfmt ([#26](https://github.com/AndrewM-F/pi-browser-use/issues/26)) ([8eadf87](https://github.com/AndrewM-F/pi-browser-use/commit/8eadf878a4622df1398c84e48f18603aa5ebd173))
 
-## [0.9.1](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.9.0...pi-browser-use-v0.9.1) (2026-09-07)
+## [0.9.1](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.9.0...pi-browser-use-v0.9.1) (2026-09-07)
 
 
 ### Bug Fixes
 
-* verified shutdown, orphan reaper, existing consent hint ([#19](https://github.com/0xPlayerOne/pi-browser-use/issues/19)) ([d130a37](https://github.com/0xPlayerOne/pi-browser-use/commit/d130a3720f78838659aa901c54b2cb2b0acb6a4b))
+* verified shutdown, orphan reaper, existing consent hint ([#19](https://github.com/AndrewM-F/pi-browser-use/issues/19)) ([d130a37](https://github.com/AndrewM-F/pi-browser-use/commit/d130a3720f78838659aa901c54b2cb2b0acb6a4b))
 
-## [0.9.0](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.8.1...pi-browser-use-v0.9.0) (2026-09-07)
+## [0.9.0](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.8.1...pi-browser-use-v0.9.0) (2026-09-07)
 
 
 ### Features
 
-* migrate formatting and linting from Prettier/ESLint to oxfmt/oxlint ([#23](https://github.com/0xPlayerOne/pi-browser-use/issues/23)) ([3f0634e](https://github.com/0xPlayerOne/pi-browser-use/commit/3f0634e44b9826ca68d1542096472a90048c72f7))
+* migrate formatting and linting from Prettier/ESLint to oxfmt/oxlint ([#23](https://github.com/AndrewM-F/pi-browser-use/issues/23)) ([3f0634e](https://github.com/AndrewM-F/pi-browser-use/commit/3f0634e44b9826ca68d1542096472a90048c72f7))
 
-## [0.8.1](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.8.0...pi-browser-use-v0.8.1) (2026-09-06)
+## [0.8.1](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.8.0...pi-browser-use-v0.8.1) (2026-09-06)
 
 
 ### Maintenance
 
-* adopt code-foundry v1.1.1 baseline ([#20](https://github.com/0xPlayerOne/pi-browser-use/issues/20)) ([c0bb834](https://github.com/0xPlayerOne/pi-browser-use/commit/c0bb8344f926188107334c963e0905273c20d567))
+* adopt code-foundry v1.1.1 baseline ([#20](https://github.com/AndrewM-F/pi-browser-use/issues/20)) ([c0bb834](https://github.com/AndrewM-F/pi-browser-use/commit/c0bb8344f926188107334c963e0905273c20d567))
 
-## [0.8.0](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.7.0...pi-browser-use-v0.8.0) (2026-09-06)
-
-
-### Features
-
-* multi-agent shared persistent browser with page ownership ([b4961e6](https://github.com/0xPlayerOne/pi-browser-use/commit/b4961e608648b4f9c8b5aadf2aa0f334d292a68d))
-
-## [0.7.0](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.6.1...pi-browser-use-v0.7.0) (2026-09-06)
+## [0.8.0](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.7.0...pi-browser-use-v0.8.0) (2026-09-06)
 
 
 ### Features
 
-* browser modes phase 2+ — self-launched persistent Chrome, reauth, tab broker ([#16](https://github.com/0xPlayerOne/pi-browser-use/issues/16)) ([72e98b0](https://github.com/0xPlayerOne/pi-browser-use/commit/72e98b0459b9c0146cd9ab30553d8d110a536e5a))
+* multi-agent shared persistent browser with page ownership ([b4961e6](https://github.com/AndrewM-F/pi-browser-use/commit/b4961e608648b4f9c8b5aadf2aa0f334d292a68d))
 
-## [0.6.1](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.6.0...pi-browser-use-v0.6.1) (2026-09-06)
+## [0.7.0](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.6.1...pi-browser-use-v0.7.0) (2026-09-06)
+
+
+### Features
+
+* browser modes phase 2+ — self-launched persistent Chrome, reauth, tab broker ([#16](https://github.com/AndrewM-F/pi-browser-use/issues/16)) ([72e98b0](https://github.com/AndrewM-F/pi-browser-use/commit/72e98b0459b9c0146cd9ab30553d8d110a536e5a))
+
+## [0.6.1](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.6.0...pi-browser-use-v0.6.1) (2026-09-06)
 
 
 ### Bug Fixes
 
-* don't relaunch when escalation target is already headed ([5f6cfbd](https://github.com/0xPlayerOne/pi-browser-use/commit/5f6cfbdf3df3cad7e651f6e17bff741bdd0e456a))
+* don't relaunch when escalation target is already headed ([5f6cfbd](https://github.com/AndrewM-F/pi-browser-use/commit/5f6cfbdf3df3cad7e651f6e17bff741bdd0e456a))
 
-## [0.6.0](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.5.0...pi-browser-use-v0.6.0) (2026-09-06)
-
-
-### Features
-
-* automatic escalation for login walls and bot challenges ([782ab0e](https://github.com/0xPlayerOne/pi-browser-use/commit/782ab0e6adaa265a548c36a41e50bf7dbe6ab9cb))
-* expand leading ~/ in profile and executable paths ([78a3870](https://github.com/0xPlayerOne/pi-browser-use/commit/78a3870cd983ba589aae1734c018b6f7a042fcb4))
-
-## [0.5.0](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.4.4...pi-browser-use-v0.5.0) (2026-09-06)
+## [0.6.0](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.5.0...pi-browser-use-v0.6.0) (2026-09-06)
 
 
 ### Features
 
-* headed toggle for both browser modes ([319ea52](https://github.com/0xPlayerOne/pi-browser-use/commit/319ea52449dd2b5161e1ab5e6402cf7294034485))
-* in-session browser_switch_mode between fresh and auth profiles ([de01125](https://github.com/0xPlayerOne/pi-browser-use/commit/de01125757dd8be8d73ec8080d0e2fefd6a793c9))
+* automatic escalation for login walls and bot challenges ([782ab0e](https://github.com/AndrewM-F/pi-browser-use/commit/782ab0e6adaa265a548c36a41e50bf7dbe6ab9cb))
+* expand leading ~/ in profile and executable paths ([78a3870](https://github.com/AndrewM-F/pi-browser-use/commit/78a3870cd983ba589aae1734c018b6f7a042fcb4))
 
-## [0.4.4](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.4.3...pi-browser-use-v0.4.4) (2026-09-06)
+## [0.5.0](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.4.4...pi-browser-use-v0.5.0) (2026-09-06)
+
+
+### Features
+
+* headed toggle for both browser modes ([319ea52](https://github.com/AndrewM-F/pi-browser-use/commit/319ea52449dd2b5161e1ab5e6402cf7294034485))
+* in-session browser_switch_mode between fresh and auth profiles ([de01125](https://github.com/AndrewM-F/pi-browser-use/commit/de01125757dd8be8d73ec8080d0e2fefd6a793c9))
+
+## [0.4.4](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.4.3...pi-browser-use-v0.4.4) (2026-09-06)
 
 
 ### Maintenance
 
-* **sync:** adopt code-foundry v1.0.4 baseline ([bb2a264](https://github.com/0xPlayerOne/pi-browser-use/commit/bb2a2640db059533bc72608078e72f9c2cf83b9f))
+* **sync:** adopt code-foundry v1.0.4 baseline ([bb2a264](https://github.com/AndrewM-F/pi-browser-use/commit/bb2a2640db059533bc72608078e72f9c2cf83b9f))
 
-## [0.4.3](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.4.2...pi-browser-use-v0.4.3) (2026-09-06)
+## [0.4.3](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.4.2...pi-browser-use-v0.4.3) (2026-09-06)
 
 
 ### Maintenance
 
-* **sync:** adopt code-foundry v1.0.3 baseline ([ace041a](https://github.com/0xPlayerOne/pi-browser-use/commit/ace041a6a587bdda35f89ec674e5801a8c9bc52a))
+* **sync:** adopt code-foundry v1.0.3 baseline ([ace041a](https://github.com/AndrewM-F/pi-browser-use/commit/ace041a6a587bdda35f89ec674e5801a8c9bc52a))
 
-## [0.4.2](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.4.1...pi-browser-use-v0.4.2) (2026-09-06)
+## [0.4.2](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.4.1...pi-browser-use-v0.4.2) (2026-09-06)
 
 
 ### Bug Fixes
 
-* **security:** static bench fixture instead of composed evaluate string ([15583ba](https://github.com/0xPlayerOne/pi-browser-use/commit/15583ba81bcd437ac918cba24bd67e65d5047204))
+* **security:** static bench fixture instead of composed evaluate string ([15583ba](https://github.com/AndrewM-F/pi-browser-use/commit/15583ba81bcd437ac918cba24bd67e65d5047204))
 
-## [0.4.1](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.4.0...pi-browser-use-v0.4.1) (2026-09-06)
+## [0.4.1](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.4.0...pi-browser-use-v0.4.1) (2026-09-06)
 
 
 ### Documentation
 
-* complete feature reference with annotated captures ([c889b19](https://github.com/0xPlayerOne/pi-browser-use/commit/c889b19adbeffd3c250cf7353dd2010782255874))
+* complete feature reference with annotated captures ([c889b19](https://github.com/AndrewM-F/pi-browser-use/commit/c889b19adbeffd3c250cf7353dd2010782255874))
 
-## [0.4.0](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.3.3...pi-browser-use-v0.4.0) (2026-09-06)
+## [0.4.0](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.3.3...pi-browser-use-v0.4.0) (2026-09-06)
 
 
 ### Features
 
-* annotated screenshots, doctor diagnostics, and benchmark harness ([f27629a](https://github.com/0xPlayerOne/pi-browser-use/commit/f27629a2d99a84f2be9e3176b169aca837030fab))
+* annotated screenshots, doctor diagnostics, and benchmark harness ([f27629a](https://github.com/AndrewM-F/pi-browser-use/commit/f27629a2d99a84f2be9e3176b169aca837030fab))
 
-## [0.3.3](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.3.2...pi-browser-use-v0.3.3) (2026-09-06)
+## [0.3.3](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.3.2...pi-browser-use-v0.3.3) (2026-09-06)
 
 
 ### Documentation
 
-* cross-link Python and external-vision alternatives in skills ([6476b8f](https://github.com/0xPlayerOne/pi-browser-use/commit/6476b8ff198ec33c23b2d28b1b468efea686ba86))
+* cross-link Python and external-vision alternatives in skills ([6476b8f](https://github.com/AndrewM-F/pi-browser-use/commit/6476b8ff198ec33c23b2d28b1b468efea686ba86))
 
-## [0.3.2](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.3.1...pi-browser-use-v0.3.2) (2026-09-06)
+## [0.3.2](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.3.1...pi-browser-use-v0.3.2) (2026-09-06)
 
 
 ### Bug Fixes
 
-* **skills:** quote frontmatter descriptions so Pi parses them ([3c92293](https://github.com/0xPlayerOne/pi-browser-use/commit/3c922933a987b5d976830f52c10e6cf4b3c444d8))
+* **skills:** quote frontmatter descriptions so Pi parses them ([3c92293](https://github.com/AndrewM-F/pi-browser-use/commit/3c922933a987b5d976830f52c10e6cf4b3c444d8))
 
-## [0.3.1](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.3.0...pi-browser-use-v0.3.1) (2026-09-06)
+## [0.3.1](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.3.0...pi-browser-use-v0.3.1) (2026-09-06)
 
 
 ### Maintenance
 
-* **sync:** adopt code-foundry v1.0.2 baseline ([2a5cdfc](https://github.com/0xPlayerOne/pi-browser-use/commit/2a5cdfccadcb4bfdc1b98ec669f4631393400b28))
+* **sync:** adopt code-foundry v1.0.2 baseline ([2a5cdfc](https://github.com/AndrewM-F/pi-browser-use/commit/2a5cdfccadcb4bfdc1b98ec669f4631393400b28))
 
-## [0.3.0](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.2.0...pi-browser-use-v0.3.0) (2026-09-05)
+## [0.3.0](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.2.0...pi-browser-use-v0.3.0) (2026-09-05)
 
 
 ### Features
 
-* recovery retry, saved artifacts, and operator skills ([5a04194](https://github.com/0xPlayerOne/pi-browser-use/commit/5a041945851f57091d7da7dcc23d0d6a94cebab2))
+* recovery retry, saved artifacts, and operator skills ([5a04194](https://github.com/AndrewM-F/pi-browser-use/commit/5a041945851f57091d7da7dcc23d0d6a94cebab2))
 
 
 ### Documentation
 
-* document artifacts, recovery, and bundled skills ([129d521](https://github.com/0xPlayerOne/pi-browser-use/commit/129d5212ac9661bb563ea131fe68c76a0102145c))
+* document artifacts, recovery, and bundled skills ([129d521](https://github.com/AndrewM-F/pi-browser-use/commit/129d5212ac9661bb563ea131fe68c76a0102145c))
 
-## [0.2.0](https://github.com/0xPlayerOne/pi-browser-use/compare/pi-browser-use-v0.1.0...pi-browser-use-v0.2.0) (2026-09-05)
+## [0.2.0](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.1.0...pi-browser-use-v0.2.0) (2026-09-05)
 
 
 ### Features
 
-* opinionated browser-use for Pi, powered by chrome-devtools-mcp ([244396b](https://github.com/0xPlayerOne/pi-browser-use/commit/244396bc3b3e6cff7de8f22ede1ae0922d65c3b6))
-* visual analysis tool and browser profile guard ([7eafb60](https://github.com/0xPlayerOne/pi-browser-use/commit/7eafb601133fead59633ead395346058205fc8ff))
+* opinionated browser-use for Pi, powered by chrome-devtools-mcp ([244396b](https://github.com/AndrewM-F/pi-browser-use/commit/244396bc3b3e6cff7de8f22ede1ae0922d65c3b6))
+* visual analysis tool and browser profile guard ([7eafb60](https://github.com/AndrewM-F/pi-browser-use/commit/7eafb601133fead59633ead395346058205fc8ff))
 
 
 ### Bug Fixes
 
-* **ci:** use packages manifest shape so releases resolve their baseline ([4ee0111](https://github.com/0xPlayerOne/pi-browser-use/commit/4ee01119328ecf8d1b2c3684d058d7a7299ba35d))
+* **ci:** use packages manifest shape so releases resolve their baseline ([4ee0111](https://github.com/AndrewM-F/pi-browser-use/commit/4ee01119328ecf8d1b2c3684d058d7a7299ba35d))
 
 
 ### Maintenance
 
-* **ci:** adopt code-foundry v0.40.2 runtime and ignore overlaid actions ([1c82613](https://github.com/0xPlayerOne/pi-browser-use/commit/1c8261393260f087d95d32fd99a05141fee1c104))
-* **ci:** align prettierignore with runtime template ([ee9c89c](https://github.com/0xPlayerOne/pi-browser-use/commit/ee9c89c1b70aa45ca8f12ec8946e83a199ede2b7))
-* **ci:** preserve authored MIT license on sync ([03e2e48](https://github.com/0xPlayerOne/pi-browser-use/commit/03e2e48475ab9199f20d8702ed68820e49d66f3f))
-* **ci:** publish releases to npm ([6d7f9e4](https://github.com/0xPlayerOne/pi-browser-use/commit/6d7f9e4e8a7c83149ed8fbdaf3fef9b45ea5a9f4))
-* **sync:** adopt code-foundry v0.40.3 baseline ([54d9822](https://github.com/0xPlayerOne/pi-browser-use/commit/54d9822563e00297c326d98069f00bc2e59706c9))
-* **sync:** adopt code-foundry v1.0.0 baseline ([7395e06](https://github.com/0xPlayerOne/pi-browser-use/commit/7395e0675acb4bb84c325952ccdbb60a5479dc89))
-* **sync:** adopt code-foundry v1.0.1 baseline ([b49f0cc](https://github.com/0xPlayerOne/pi-browser-use/commit/b49f0cc4d795e54b36a69d22ed9365a5a4056bc5))
+* **ci:** adopt code-foundry v0.40.2 runtime and ignore overlaid actions ([1c82613](https://github.com/AndrewM-F/pi-browser-use/commit/1c8261393260f087d95d32fd99a05141fee1c104))
+* **ci:** align prettierignore with runtime template ([ee9c89c](https://github.com/AndrewM-F/pi-browser-use/commit/ee9c89c1b70aa45ca8f12ec8946e83a199ede2b7))
+* **ci:** preserve authored MIT license on sync ([03e2e48](https://github.com/AndrewM-F/pi-browser-use/commit/03e2e48475ab9199f20d8702ed68820e49d66f3f))
+* **ci:** publish releases to npm ([6d7f9e4](https://github.com/AndrewM-F/pi-browser-use/commit/6d7f9e4e8a7c83149ed8fbdaf3fef9b45ea5a9f4))
+* **sync:** adopt code-foundry v0.40.3 baseline ([54d9822](https://github.com/AndrewM-F/pi-browser-use/commit/54d9822563e00297c326d98069f00bc2e59706c9))
+* **sync:** adopt code-foundry v1.0.0 baseline ([7395e06](https://github.com/AndrewM-F/pi-browser-use/commit/7395e0675acb4bb84c325952ccdbb60a5479dc89))
+* **sync:** adopt code-foundry v1.0.1 baseline ([b49f0cc](https://github.com/AndrewM-F/pi-browser-use/commit/b49f0cc4d795e54b36a69d22ed9365a5a4056bc5))
