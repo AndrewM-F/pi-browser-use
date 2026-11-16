@@ -189,6 +189,23 @@ describe('chrome launcher helpers', () => {
     assert.deepEqual(findManagedChromePids(ps, '/tmp/pi', 101), [])
   })
 
+  it('matches a quoted --user-data-dir (Windows shells quote the path)', async () => {
+    const { findManagedChromePids } = await import('../dist/chrome-launcher.js')
+    const ps = [
+      '  201 "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" --user-data-dir="C:\\Users\\me\\.pi\\browser-profile" --profile-directory=pi-browser-use --remote-debugging-port=44444',
+      '  202 chrome.exe --user-data-dir="C:\\Users\\me\\.pi\\other" --remote-debugging-port=55555',
+    ].join('\n')
+    assert.deepEqual(findManagedChromePids(ps, 'C:\\Users\\me\\.pi\\browser-profile'), [201])
+  })
+
+  it('spawns a real JS runtime when Pi is a compiled standalone binary', async () => {
+    const { resolveNodeCommand } = await import('../dist/client.js')
+    assert.equal(resolveNodeCommand('/usr/bin/node'), '/usr/bin/node')
+    assert.equal(resolveNodeCommand('/usr/local/bin/bun'), '/usr/local/bin/bun')
+    assert.equal(resolveNodeCommand('/Users/me/.local/share/mise/installs/pi/1.4.0/pi/pi'), 'node')
+    assert.equal(resolveNodeCommand('/opt/pi/pi', ' /custom/node '), '/custom/node')
+  })
+
   it('pins the named Pi profile directory when requested', () => {
     const args = buildChromeArgs({
       userDataDir: '/tmp/pi-profile',

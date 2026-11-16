@@ -1,5 +1,6 @@
 import { createRequire } from 'node:module'
-import { dirname, join } from 'node:path'
+import { basename, dirname, join } from 'node:path'
+import { existsSync } from 'node:fs'
 import type { Client } from '@modelcontextprotocol/sdk/client/index.js'
 import { configToArgs, resolveConfig, type BrowserUseConfig } from './config.js'
 
@@ -78,6 +79,41 @@ function summarizeFailure(stderr: string, errorName: string, errorCode?: string)
  * MCP client that spawns chrome-devtools-mcp as a per-session subprocess over
  * stdio. Nothing runs persistently: connect() starts it, close() kills it.
  */
+
+const JS_RUNTIME_NAMES = new Set(['node', 'bun', 'deno'])
+
+function isJavaScriptRuntime(execPath: string): boolean {
+  const name = basename(execPath).toLowerCase().replace(/\.exe$/, '')
+  return JS_RUNTIME_NAMES.has(name) || /^node\d+$/.test(name)
+}
+
+/**
+ * Pick the runtime that executes the MCP entrypoint.
+ *
+ * `process.execPath` is only usable when Pi itself runs on a JS runtime. A
+ * compiled standalone Pi binary (e.g. installed via mise) ignores script
+ * arguments, so spawning it would silently re-run Pi instead of the MCP
+ * server; in that case fall back to a real runtime from PATH.
+ */
+export function resolveNodeCommand(execPath: string, override?: string): string {
+  const pinned = override?.trim()
+  if (pinned) return pinned
+  if (isJavaScriptRuntime(execPath)) return execPath
+  for (const candidate of ['node', 'bun']) {
+    if (isOnPath(candidate)) return candidate
+  }
+  return 'node'
+}
+
+function isOnPath(binary: string): boolean {
+  const path = process.env['PATH'] ?? process.env['Path'] ?? ''
+  const exts = process.platform === 'win32' ? ['.exe', '.cmd', ''] : ['']
+  return path.split(process.platform === 'win32' ? ';' : ':').some((dir) => {
+    if (!dir) return false
+    return exts.some((ext) => existsSync(join(dir, binary + ext)))
+  })
+}
+
 export class DevToolsClient {
   private client: Client | null = null
   private config: BrowserUseConfig
@@ -113,7 +149,7 @@ export class DevToolsClient {
     const args = configToArgs(this.config)
     const generation = ++this.generation
     const transport = new StdioClientTransport({
-      command: process.env.PI_BROWSER_USE_NODE?.trim() || process.execPath,
+      command: resolveNodeCommand(process.execPath, process.env.PI_BROWSER_USE_NODE),
       args: [CHROME_DEVTOOLS_MCP_ENTRYPOINT, ...args],
       stderr: 'pipe',
     })
