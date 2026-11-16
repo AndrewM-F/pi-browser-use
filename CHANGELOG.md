@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.12.18](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.17...pi-browser-use-v0.12.18) (2026-11-16)
+
+
+### Maintenance
+
+* **deps:** bump the bun-dependencies group across 1 directory with 7 updates ([#123](https://github.com/AndrewM-F/pi-browser-use/issues/123)) ([704784f](https://github.com/AndrewM-F/pi-browser-use/commit/704784f03a2594a900b3cd7bf243d786961eefe7))
+
 ## [0.12.17](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.16...pi-browser-use-v0.12.17) (2026-11-16)
 
 
