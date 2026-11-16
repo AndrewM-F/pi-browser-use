@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.12.19](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.18...pi-browser-use-v0.12.19) (2026-11-16)
+
+
+### Bug Fixes
+
+* reap orphaned Chrome on Windows ([088f530](https://github.com/AndrewM-F/pi-browser-use/commit/088f530c09ef2b75daa23ce0efa6caeff17bed9e)), closes [#119](https://github.com/AndrewM-F/pi-browser-use/issues/119)
+* spawn a real JS runtime when Pi is a compiled standalone binary ([37b25dd](https://github.com/AndrewM-F/pi-browser-use/commit/37b25dd0a7dd4fd0b777cc6dff28d9427d4cd335)), closes [#113](https://github.com/AndrewM-F/pi-browser-use/issues/113)
+
 ## [0.12.18](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.17...pi-browser-use-v0.12.18) (2026-11-16)
 
 
