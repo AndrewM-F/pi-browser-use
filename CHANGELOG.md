@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.12.17](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.16...pi-browser-use-v0.12.17) (2026-11-16)
+
+
+### Maintenance
+
+* **deps:** bump actions/setup-node ([#122](https://github.com/AndrewM-F/pi-browser-use/issues/122)) ([ce39a9c](https://github.com/AndrewM-F/pi-browser-use/commit/ce39a9c2eecb534ac0b34d3f3d53a409d1c7461c))
+
 ## [0.12.16](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.15...pi-browser-use-v0.12.16) (2026-11-16)
 
 
