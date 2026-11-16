@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.12.16](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.15...pi-browser-use-v0.12.16) (2026-11-16)
+
+
+### Maintenance
+
+* point GitHub references at AndrewM-F ([86395e2](https://github.com/AndrewM-F/pi-browser-use/commit/86395e22052761680826d1c1869a9f221a9aab91))
+
 ## [0.12.15](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.14...pi-browser-use-v0.12.15) (2026-10-24)
 
 
