@@ -209,6 +209,15 @@ describe('chrome launcher helpers', () => {
     assert.deepEqual(findManagedChromePids(ps, 'C:\\Users\\me\\.pi\\browser-profile'), [201])
   })
 
+  it('parses CRLF process tables from Windows PowerShell', async () => {
+    const { findManagedChromePids } = await import('../dist/chrome-launcher.js')
+    const ps = [
+      '  401 "C:\\Program Files\\Chromium\\Application\\chrome.exe" --user-data-dir="C:\\Users\\me\\.pi\\browser-profile" --profile-directory=pi-browser-use --remote-debugging-port=66666',
+      '  402 "C:\\tools\\chromium.exe" --user-data-dir="C:\\Users\\me\\.pi\\browser-profile" --profile-directory=pi-browser-use --remote-debugging-port=77777',
+    ].join('\r\n')
+    assert.deepEqual(findManagedChromePids(ps, 'C:\\Users\\me\\.pi\\browser-profile'), [401, 402])
+  })
+
   it('spawns a real JS runtime when Pi is a compiled standalone binary', async () => {
     const { resolveNodeCommand } = await import('../dist/client.js')
     assert.equal(resolveNodeCommand('/usr/bin/node'), '/usr/bin/node')
