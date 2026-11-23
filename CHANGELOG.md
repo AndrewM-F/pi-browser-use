@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.12.20](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.19...pi-browser-use-v0.12.20) (2026-11-23)
+
+
+### Bug Fixes
+
+* reap Chromium browser processes on Linux and macOS ([#128](https://github.com/AndrewM-F/pi-browser-use/issues/128)) ([4831baf](https://github.com/AndrewM-F/pi-browser-use/commit/4831baf73449f1e7a09ce738d59053295914cae9))
+
 ## [0.12.19](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.18...pi-browser-use-v0.12.19) (2026-11-16)
 
 
