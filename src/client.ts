@@ -83,7 +83,9 @@ function summarizeFailure(stderr: string, errorName: string, errorCode?: string)
 const JS_RUNTIME_NAMES = new Set(['node', 'bun', 'deno'])
 
 function isJavaScriptRuntime(execPath: string): boolean {
-  const name = basename(execPath).toLowerCase().replace(/\.exe$/, '')
+  const name = basename(execPath)
+    .toLowerCase()
+    .replace(/\.exe$/, '')
   return JS_RUNTIME_NAMES.has(name) || /^node\d+$/.test(name)
 }
 

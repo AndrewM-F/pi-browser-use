@@ -59,7 +59,6 @@ export interface PersistentBackendOptions {
   attachClient?: (config: BrowserUseConfig) => AttachedClient
 }
 
-
 /**
  * Snapshot `pid command-line` pairs for every running process.
  * `ps` is unavailable on Windows, so use CIM there (wmic is gone from
