@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.12.21](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.20...pi-browser-use-v0.12.21) (2026-11-23)
+
+
+### Bug Fixes
+
+* parse CRLF process tables on Windows ([#131](https://github.com/AndrewM-F/pi-browser-use/issues/131)) ([4b04865](https://github.com/AndrewM-F/pi-browser-use/commit/4b048651891b963015469a86ddf0061808b7de7f))
+
 ## [0.12.20](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.19...pi-browser-use-v0.12.20) (2026-11-23)
 
 
