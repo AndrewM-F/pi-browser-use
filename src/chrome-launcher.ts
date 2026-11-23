@@ -126,7 +126,9 @@ export function findManagedChromePids(
   keepPid?: number
 ): number[] {
   const pids: number[] = []
-  for (const line of psOutput.split('\n')) {
+  // Windows PowerShell emits CRLF; a trailing `\r` would make the line regex
+  // below fail to match, so split on either ending.
+  for (const line of psOutput.split(/\r?\n/)) {
     const match = line.match(/^\s*(\d+)\s+(.*)$/)
     if (!match) continue
     const pid = Number(match[1])
