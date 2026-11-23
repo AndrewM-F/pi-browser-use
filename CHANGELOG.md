@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.12.23](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.22...pi-browser-use-v0.12.23) (2026-11-23)
+
+
+### Bug Fixes
+
+* **deps:** patch vulnerable transitive dependencies ([#134](https://github.com/AndrewM-F/pi-browser-use/issues/134)) ([c83511f](https://github.com/AndrewM-F/pi-browser-use/commit/c83511f39244560cfc0a2015ec4145a03e26b0d7))
+
 ## [0.12.22](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.21...pi-browser-use-v0.12.22) (2026-11-23)
 
 
