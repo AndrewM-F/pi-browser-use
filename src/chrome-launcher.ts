@@ -104,7 +104,6 @@ export function findChromeExecutable(executablePath?: string): string {
   )
 }
 
-
 /**
  * Chrome is spawned by Pi without quoting, but Windows shells and manual
  * launches report `--user-data-dir="C:\\path"`. Normalise so orphan
@@ -133,7 +132,10 @@ export function findManagedChromePids(
     const pid = Number(match[1])
     const command = stripUserDataDirQuotes(match[2] ?? '')
     if (pid === keepPid) continue
-    if (!command.includes('Google Chrome') && !command.includes('chrome')) continue
+    // Chrome and Chromium use different binary names; Linux and macOS
+    // Chromium installs (for example Arch's /usr/lib/chromium/chromium)
+    // never carry "chrome" in their paths.
+    if (!/chrome|chromium/i.test(command)) continue
     const wanted = `--user-data-dir=${userDataDir}`
     const hasDir =
       process.platform === 'win32'

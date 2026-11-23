@@ -189,6 +189,17 @@ describe('chrome launcher helpers', () => {
     assert.deepEqual(findManagedChromePids(ps, '/tmp/pi', 101), [])
   })
 
+  it('recognizes Chromium binaries, not just branded Google Chrome', async () => {
+    const { findManagedChromePids } = await import('../dist/chrome-launcher.js')
+    const ps = [
+      '  301 /usr/lib/chromium/chromium --user-data-dir=/tmp/pi --profile-directory=pi-browser-use --remote-debugging-port=11111',
+      '  302 /Applications/Chromium.app/Contents/MacOS/Chromium --user-data-dir=/tmp/pi --profile-directory=pi-browser-use --remote-debugging-port=22222',
+      '  303 /usr/lib/chromium/chromium --user-data-dir=/tmp/other --remote-debugging-port=33333',
+      '  304 /usr/lib/chromium/chromium --user-data-dir=/tmp/pi --profile-directory=pi-browser-use',
+    ].join('\n')
+    assert.deepEqual(findManagedChromePids(ps, '/tmp/pi'), [301, 302])
+  })
+
   it('matches a quoted --user-data-dir (Windows shells quote the path)', async () => {
     const { findManagedChromePids } = await import('../dist/chrome-launcher.js')
     const ps = [
