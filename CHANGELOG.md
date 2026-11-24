@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.12.24](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.23...pi-browser-use-v0.12.24) (2026-11-24)
+
+
+### Maintenance
+
+* relicense to Apache-2.0 ([#136](https://github.com/AndrewM-F/pi-browser-use/issues/136)) ([1638765](https://github.com/AndrewM-F/pi-browser-use/commit/163876502a7b8df3c81a67a81baa08769f918ebc))
+
 ## [0.12.23](https://github.com/AndrewM-F/pi-browser-use/compare/pi-browser-use-v0.12.22...pi-browser-use-v0.12.23) (2026-11-23)
 
 
